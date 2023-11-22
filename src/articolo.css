@@ -1,0 +1,9 @@
+.card {
+    width: 100%;
+    /* Imposta la larghezza al 100% del contenitore padre */
+    max-width: 300px;
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+}
