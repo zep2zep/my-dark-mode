@@ -37,17 +37,17 @@ const data = [
   },
   {
     id: 6,
-    imgURL: "./elleffe_V2_r.png",
-    title: "Prima immagine",
+    imgURL: "../elleffe_V2_r.png",
+    title: "Prima immagine in /public   ../elleffe_V2_r.png",
     body:
-      "Lorem, ipsum.",
+      "Posizionata in /public   ../elleffe_V2_r.png",
   },
   {
     id: 7,
-    imgURL: "./img/elleffe_V2_r.png",
-    title: "Seconda immagine",
+    imgURL: '../img/elleffe_V2_r.png',
+    title: "Seconda immagine ",
     body:
-      "Lorem, ipsum.",
+      "Posizionata in /public/img ../img/elleffe_V2_r.png",
   },
   {
     id: 8,

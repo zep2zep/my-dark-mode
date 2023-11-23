@@ -3,8 +3,8 @@ import React from 'react';
 
 const Articolo = ({ body, title, imgURL }) => {
     return (
-        <div class="col">
-            <div className="card h-100" style={{ width: '20rem' }}>
+        <div class="col mt-5">
+            <div className="card h-100 " style={{ width: '20rem' }}>
                 <img src={imgURL} className="card-img-top"
                     alt="" />
                 <div className="card-body ">
