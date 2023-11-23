@@ -24,7 +24,7 @@
 }
 
 .light-mode {
-  --clr-bg: #efefef;
+  --clr-bg: #c3d3b6;
   --clr-text: #222;
   --clr-primary: rgb(56, 146, 194);
   --clr-card: #eeeeee;
@@ -130,7 +130,7 @@ p {
   }
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   border: none;
   padding: 0.4rem 1.25rem;
@@ -144,7 +144,7 @@ p {
   text-transform: uppercase;
   background-color: var(--clr-primary);
   color: var(--clr-text);
-}
+} */
 
 .btn:hover {
   transform: scale(1.03);

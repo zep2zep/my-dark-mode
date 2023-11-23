@@ -22,7 +22,7 @@ const About = () => {
                     <br></br>
                     Tra i link disponibili troviamo a Home, ad About, a Tips e altri ancora in divenire, offrendo così un facile accesso alle diverse funzionalità del sito.
                     <br></br>
-                    CreativeHub è pubblicato su <a href='https://vercel.app/'>vercel.com</a>, un sito che promuove un ambiente inclusivo e stimolante che favorisce la creatività, l'apprendimento e la condivisione di idee in un'esperienza interattiva e coinvolgente.
+                    CreativeHub è pubblicato su <a href='https://vercel.app/'>vercel.com</a>, a questo <a href='https://my-dark-mode.vercel.app'> link</a> un sito che promuove un ambiente inclusivo e stimolante che favorisce la creatività, l'apprendimento e la condivisione di idee in un'esperienza interattiva e coinvolgente.
                     <br></br>
                     Inoltre, il repository del sito si trova su <a href='https://github.com/zep2zep/my-dark-mode'>github.com</a>, dove è possibile accedere al codice sorgente e contribuire allo sviluppo della piattaforma.
                 </p>

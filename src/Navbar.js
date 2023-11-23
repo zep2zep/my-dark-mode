@@ -61,6 +61,10 @@ const Navbar = () => {
                                     <NavItem to="/pages/About">About</NavItem>
                                     <NavItem to="/pages/cartelle">Tips</NavItem>
                                 </ul>
+                                <ul className="navbar-nav me-2">
+                                    <NavItem to="/pages/login">Login</NavItem>
+                                    <NavItem to="/pages/register">Register</NavItem>
+                                </ul>
                                 <span id="theme-icon" style={{ fontSize: '24px' }} onClick={cambiaTema}>
                                     {theme === 'light-mode' ? (
                                         <i className="fas fa-moon" />

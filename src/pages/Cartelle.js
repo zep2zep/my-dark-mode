@@ -5,7 +5,7 @@ const Cartelle = () => {
     return (
 
         <div class="container-fliud">
-            <div class="row row-cols-1 row-cols-md-3 
+            <div class="row row-cols-1 row-cols-md-2 
                     row-cols-lg-4 ms-2">
                 {data.map((el) => (
                     <Articolo key={el.id} {...el} />
