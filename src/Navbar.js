@@ -12,16 +12,9 @@ const NavItem = ({ to, children }) => (
 );
 
 
-const getFromLocalStorage = () => {
-    if (localStorage.getItem("theme-icon")) {
-        return localStorage.getItem("theme-icon");
-    } else {
-        return "light-mode";
-    }
-};
 const Navbar = () => {
     //Stato iniziale per la nostra modalità
-    const [theme, setTheme] = useState(getFromLocalStorage());
+    const [theme, setTheme] = useState('dark-mode');
 
     //Cambia il valore dello staate theme
     const cambiaTema = () => {
@@ -31,13 +24,12 @@ const Navbar = () => {
             setTheme("light-mode");
         }
     };
-
     useEffect(() => {
-        //Attacca classe al html tag
+        // Attacca la classe al tag html per il tema
         document.documentElement.className = theme;
 
-        //inserisco valore di theme nel localStorage ogni volta viene mutato il suo state
-        localStorage.setItem("theme", theme);
+        // Inserisci il valore di theme nel localStorage ogni volta che viene modificato
+        localStorage.setItem("theme-icon", theme);
     }, [theme]);
 
     const location = useLocation();
