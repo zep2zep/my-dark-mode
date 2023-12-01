@@ -1,19 +1,19 @@
-import React from 'react'
+import React from 'react';
 import data from '../data';
-import Articolo from "./Articolo";
+import Articolo from './Articolo';
 const Cartelle = () => {
-    return (
+  return (
+    <div class="container-fliud">
+      <div
+        class="row row-cols-1 row-cols-md-2 
+                    row-cols-lg-4 ms-2"
+      >
+        {data.map((el) => (
+          <Articolo key={el.id} {...el} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
-        <div class="container-fliud">
-            <div class="row row-cols-1 row-cols-md-2 
-                    row-cols-lg-4 ms-2">
-                {data.map((el) => (
-                    <Articolo key={el.id} {...el} />
-                ))}
-            </div>
-        </div>
-
-    )
-}
-
-export default Cartelle
+export default Cartelle;

@@ -1,9 +1,9 @@
-import Home from "./Home";
-import Navbar from "./Navbar";
-import About from "./pages/About";
-import Cartelle from "./pages/Cartelle";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Home from './Home';
+import Navbar from './Navbar';
+import About from './pages/About';
+import Cartelle from './pages/Cartelle';
+import Login from './pages/Login';
+import Register from './pages/Register';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
