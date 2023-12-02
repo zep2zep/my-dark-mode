@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import './home.css';
 const Home = () => {
@@ -11,9 +12,11 @@ const Home = () => {
           buon senso fa spesso una pausa caffè e l'arguzia è l'unica moneta
           accettata.<br></br>
         </p>
-        <a href="./pages/about" className="action_btn">
+
+        {/* Usare Link per navigare */}
+        <Link to="./pages/about" className="action_btn">
           Entra
-        </a>
+        </Link>
       </section>
     </div>
   );
